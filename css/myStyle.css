@@ -45,19 +45,22 @@ html {
 	padding-left: 18px;
 }
 
+.font-fix {
+    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
 .sectionMore{
 	text-align: right;
 	padding: .4em .4em .4em .4em;
 	margin-top: 0em;
 	margin-right: 0em;
 	margin-left: 0em;
-	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+/*	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;*/
 }
 .sectionAbout {
 	padding: .4em .4em .4em .4em;
 	margin-top: 30em;
 	margin-bottom: 0em;
-	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+/*	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;*/
 }
 
 .sectionHobby {
@@ -95,35 +98,6 @@ html {
 
 .dreamList {
 	list-style: none;
-}
-
-.glyphicon-question-sign {
-	padding-top: 8px;
-	font-size: 32px;
-}
-
-.glyphicon-headphones {
-	padding-top: 8px;
-	padding-left: 214px;
-	font-size: 32px;
-}
-
-.glyphicon-headphones {
-	padding-top: 8px;
-	padding-left: 214px;
-	font-size: 32px;
-}
-
-.glyphicon-sunglasses {
-	padding-top: 8px;
-	padding-left: 214px;
-	font-size: 32px;
-}
-
-.glyphicon-camera {
-	padding-top: 8px;
-	padding-left: 212px;
-	font-size: 32px;
 }
 
 .col-md-12 {
@@ -194,7 +168,7 @@ html {
 
 .content-footer {
 	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-	background-color: #43312F;
+	background-color: #2196F3;
 	color: white;
 	text-align: center;
 	margin-top: 0em;
@@ -226,4 +200,10 @@ a:hover {
 /* selected link */
 a:active {
     color: white;
+}
+
+@media only screen and  (max-width: 500px) {
+    .masthead-heading {
+        font-size: 3em;
+    }
 }
