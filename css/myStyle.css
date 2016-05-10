@@ -1,7 +1,15 @@
-html {
-	/*color: #32CD32;*/
-	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-}
+
+	/*JULIUS SANS ONE, CRIMSON TEXT*/
+/*@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+*/
+.wrapper {
+	font-family: 'Julius Sans One', sans-serif;
+	}
+	
+	/*font-family: 'Crimson Text', serif;
+	font-family: 'Wire One', sans-serif;*/
+
 
 .masthead {
    	padding: 9em 0;
@@ -14,7 +22,6 @@ html {
     top: 0;
     left: 0;
     width: 100%;
-  /*  opacity: .89;*/
 }
 
 #masthead1 {
